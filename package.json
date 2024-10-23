@@ -1,0 +1,17 @@
+{
+  "name": "coffeelog_backend",
+  "version": "1.0.0",
+  "description": "PWA CoffeeLog App BackEnd Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"  
+  },
+  "author": "Abdulsatar Qaderzada",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express-nedb-rest": "^1.4.1",
+    "nodemon": "^3.1.7"
+  }
+}
